@@ -1,0 +1,45 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 100vh;
+}
+
+.sidebar {
+  grid-row: 1 / -1;
+  grid-column: 1 / 2;
+  background-color: rgb(170, 102, 233);
+}
+
+.main-section {
+  grid-row: 1 / -1;
+  grid-column: 2 / -1;
+}
+
+.search-input {
+  width: 70%;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #706e72;
+}
+
+.search-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: #706e72;
+  font-weight: 700;
+}
+
+.search-icon:hover,
+.search-icon:active {
+  background-color: #d0b5f9;
+}

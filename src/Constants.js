@@ -1,0 +1,2 @@
+export const OPENWEATHERMAP_APIKEY = "8509b7ba3bf16b2cd85dc7f3a648352e";
+export const GEOCODE_APIKEY = "AIzaSyCb2x80Rj_d1-smF041KaZhX83TBlI7n9E";
